@@ -14,7 +14,10 @@
 @end
 
 @implementation ViewController
-
+- (void)test
+{
+    NSLog(@"测试github");
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     CatZanButton *zanBtn=[[CatZanButton alloc] init];
